@@ -21,8 +21,8 @@ public class SavingAcc extends BankAcc  {
 
 	@Override
 	public String toString() {
-		// TODO Auto-generated method stub
-		return null;
+		return "SavingAcc [isSalaried=" + isSalaried + ", getAccBal()=" + getAccBal() + ", toString()="
+				+ super.toString() + ", getClass()=" + getClass() + ", hashCode()=" + hashCode() + "]";
 	}
 
 }

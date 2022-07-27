@@ -33,11 +33,11 @@ public abstract class BankAcc {
 	{
 		System.out.println("Items are delivered with charges :"+ammount);
 	}
-	@Override
-	public abstract String toString() ;
-	
-	
-	
-	
 
+	@Override
+	public String toString() {
+		return "BankAcc [accBal=" + accBal + ", getAccBal()=" + getAccBal() + ", getClass()=" + getClass()
+				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
+	}
+	
 }
